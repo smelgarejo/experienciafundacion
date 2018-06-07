@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: "Poppins", Arial;
+    color: #212529;
+    line-height: 1.8;
+    text-align: left;
+    background-color: #fff;
+    font-weight: 500; 
+}
+
+p {
+    font-family: "Poppins", Arial;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #828a91;   
+}
+
+h2 {
+    font-family: "Poppins", Arial;
+    font-size: 2.3rem;
+    font-weight: 500; 
+    color: #212529;
+}
+
+h4 {
+    font-family: "Poppins", Arial;
+    font-size: 1.4rem;
+    font-weight: 500; 
+    color: #212529;
+}
+
+h5 {
+    font-family: "Poppins", Arial;
+    font-size: 4rem;
+    font-weight: 500; 
+    color: #fff;
+}
+
+h6 {
+    font-family: "Poppins", Arial;
+    font-size: 0.75rem;
+    font-weight: 600; 
+    color: #212529;
+}
+
+label {
+    color: white;
+}
+.navbar {
+    border-bottom: 3px #17A2B8 solid;
+}
+.nav-item li {
+    font-weight: 600;
+    color: white;
+}
+.slidetext {
+    font-size: 2rem;
+    font-weight: 500; 
+    color: #fff;
+    
+}
+.footer-bottom {
+    text-align: center;
+    padding: 22px 0;
+        border-top: 1px solid #ffffff;
+}
+.redesociales-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redesociales-icons  li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
