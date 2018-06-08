@@ -1,77 +1,104 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 body {
-    margin: 0;
-    font-family: "Poppins", Arial;
-    color: #212529;
-    line-height: 1.8;
-    text-align: left;
-    background-color: #fff;
-    font-weight: 500; 
+margin: 0;
+font-family: "Poppins", Arial;
+color: #212529;
+line-height: 1.8;
+text-align: left;
+background-color: #fff;
+font-weight: 500;
 }
-
 p {
-    font-family: "Poppins", Arial;
-    font-size: .875rem;
-    font-weight: 400;
-    color: #828a91;   
+font-family: "Poppins", Arial;
+font-size: .875rem;
+font-weight: 400;
+color: #828a91;
 }
-
 h2 {
-    font-family: "Poppins", Arial;
-    font-size: 2.3rem;
-    font-weight: 500; 
-    color: #212529;
+font-family: "Poppins", Arial;
+font-size: 2.3rem;
+font-weight: 500;
+color: #212529;
 }
-
+h3 {
+font-family: "Poppins", Arial;
+font-size: 1rem;
+font-weight: 500;
+color: black;
+}
 h4 {
-    font-family: "Poppins", Arial;
-    font-size: 1.4rem;
-    font-weight: 500; 
-    color: #212529;
+font-family: "Poppins", Arial;
+font-size: 1.4rem;
+font-weight: 500;
+color: #212529;
 }
-
 h5 {
-    font-family: "Poppins", Arial;
-    font-size: 4rem;
-    font-weight: 500; 
-    color: #fff;
+font-family: "Poppins", Arial;
+font-size: 4rem;
+font-weight: 500;
+color: #fff;
 }
-
 h6 {
-    font-family: "Poppins", Arial;
-    font-size: 0.75rem;
-    font-weight: 600; 
-    color: #212529;
+font-family: "Poppins", Arial;
+font-size: 0.75rem;
+font-weight: 600;
+color: #212529;
 }
-
 label {
-    color: white;
+color: white;
+}
+ul li {
+font-family: "Poppins", Arial;
+font-size: .875rem;
+font-weight: 400;
+color: #828a91;
 }
 .navbar {
-    border-bottom: 3px #17A2B8 solid;
+border-bottom: 3px #17A2B8 solid;
 }
 .nav-item li {
-    font-weight: 600;
-    color: white;
+font-weight: 600;
+color: white;
 }
 .slidetext {
-    font-size: 2rem;
-    font-weight: 500; 
-    color: #fff;
-    
+font-size: 2rem;
+font-weight: 500;
+color: #fff;
 }
 .footer-bottom {
-    text-align: center;
-    padding: 22px 0;
-        border-top: 1px solid #ffffff;
+text-align: center;
+padding: 22px 0;
+border-top: 1px solid #ffffff;
 }
 .redesociales-icons {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+list-style: none;
+padding: 0;
+margin: 0;
 }
-
 .redesociales-icons  li {
-    display: inline-block;
-    margin: 0 20px 0 0;
+display: inline-block;
+margin: 0 20px 0 0;
 }
-
+.bloqueprincipal__nosotros,
+.bloqueprincipal__noticias {
+background: url('../img/bg_nosotros.jpg') center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+display: block;
+height: 170px;
+}
+.noticia_img {
+width: 200px;
+height: 250px;
+}
